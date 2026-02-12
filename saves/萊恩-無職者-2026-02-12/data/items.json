@@ -1,7 +1,136 @@
 {
-  "items": [],
+  "items": [
+    {
+      "item_id": "ITM001",
+      "name": "史萊姆膠",
+      "type": "材料",
+      "rarity": "普通",
+      "base_price": 5,
+      "description": "藍色史萊姆的黏稠膠質,可用於煉金",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "first_obtained": "第11天"
+    },
+    {
+      "item_id": "ITM002",
+      "name": "哥布林耳朵",
+      "type": "任務憑證",
+      "rarity": "普通",
+      "base_price": 2,
+      "description": "哥布林的耳朵,可作為討伐證明",
+      "obtained": 6,
+      "sold": 0,
+      "used": 6,
+      "current_stock": 0,
+      "first_obtained": "第11天",
+      "notes": "已繳交給村長作為任務證明"
+    },
+    {
+      "item_id": "ITM003",
+      "name": "銹蝕短劍",
+      "type": "武器",
+      "rarity": "劣質",
+      "base_price": 15,
+      "description": "鏽蝕嚴重的短劍,品質低劣",
+      "damage": "1d6-1",
+      "obtained": 4,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 4,
+      "first_obtained": "第11天"
+    },
+    {
+      "item_id": "ITM004",
+      "name": "破損木盾",
+      "type": "護甲",
+      "rarity": "劣質",
+      "base_price": 8,
+      "description": "有裂痕的木盾,防禦力有限",
+      "ac_bonus": 1,
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "first_obtained": "第11天"
+    },
+    {
+      "item_id": "ITM005",
+      "name": "皮甲",
+      "type": "護甲",
+      "rarity": "普通",
+      "base_price": 100,
+      "description": "標準的皮革護甲",
+      "ac": "11 + 敏捷調整值",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "first_obtained": "第11天",
+      "notes": "目前穿著中"
+    },
+    {
+      "item_id": "ITM006",
+      "name": "魔法寶石碎片",
+      "type": "魔法物品殘骸",
+      "rarity": "稀有 (損毀)",
+      "base_price": 5,
+      "description": "火焰寶石爆炸後的碎片,魔力已流失",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "first_obtained": "第11天",
+      "notes": "原為哥布林薩滿的火焰寶石,在戰鬥中被萊薇摧毀引爆"
+    },
+    {
+      "item_id": "ITM007",
+      "name": "治療藥水",
+      "type": "消耗品",
+      "rarity": "普通",
+      "base_price": 50,
+      "description": "回復 2d4+2 HP 的藥水",
+      "obtained": 1,
+      "sold": 0,
+      "used": 1,
+      "current_stock": 0,
+      "first_obtained": "轉生初始裝備",
+      "notes": "已使用於艾莉絲"
+    },
+    {
+      "item_id": "ITM008",
+      "name": "長劍",
+      "type": "武器",
+      "rarity": "普通",
+      "base_price": 150,
+      "description": "標準的長劍,目前在威爾斯處維修",
+      "damage": "1d8+1",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "first_obtained": "轉生初始裝備",
+      "notes": "正在維修,預計第12天取回"
+    },
+    {
+      "item_id": "ITM009",
+      "name": "鎖鏈甲",
+      "type": "護甲",
+      "rarity": "普通",
+      "base_price": 750,
+      "description": "標準的鎖鏈甲,目前在威爾斯處維修",
+      "ac": "15 (護甲14 + 敏捷上限1)",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "first_obtained": "轉生初始裝備",
+      "notes": "正在維修,預計第12天取回"
+    }
+  ],
   "metadata": {
     "last_updated": "2026-02-12",
-    "total_items": 0
+    "total_items": 9
   }
 }

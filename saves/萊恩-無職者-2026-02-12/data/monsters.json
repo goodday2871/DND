@@ -1,9 +1,81 @@
 {
-  "monster_types": [],
-  "encounters": [],
+  "monster_types": [
+    {
+      "monster_id": "MON001",
+      "name": "藍色史萊姆",
+      "type": "軟泥怪",
+      "size": "小型",
+      "hp": 5,
+      "ac": 8,
+      "loot_table": {
+        "common": [{"item": "史萊姆膠", "quantity": 1, "chance": 100}]
+      },
+      "first_encountered": "第11天"
+    },
+    {
+      "monster_id": "MON002",
+      "name": "哥布林",
+      "type": "類人生物",
+      "size": "小型",
+      "hp": 7,
+      "ac": 15,
+      "loot_table": {
+        "always": [{"item": "哥布林耳朵", "quantity": 1, "chance": 100}],
+        "common": [
+          {"item": "銹蝕短劍", "quantity": 1, "chance": 70},
+          {"item": "破損木盾", "quantity": 1, "chance": 30}
+        ]
+      },
+      "first_encountered": "第11天"
+    },
+    {
+      "monster_id": "MON003",
+      "name": "哥布林薩滿",
+      "type": "類人生物 (施法者)",
+      "size": "小型",
+      "hp": 12,
+      "ac": 13,
+      "loot_table": {
+        "always": [{"item": "哥布林耳朵", "quantity": 1, "chance": 100}],
+        "rare": [{"item": "火焰寶石", "quantity": 1, "chance": 50}]
+      },
+      "first_encountered": "第11天",
+      "notes": "本次遭遇中的火焰寶石被萊薇摧毀並引爆"
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "ENC001",
+      "date": "第11天",
+      "location": "河畔小徑",
+      "monsters": [{"monster_id": "MON001", "name": "藍色史萊姆", "quantity": 1, "defeated": true}],
+      "outcome": "勝利",
+      "loot_obtained": [{"item": "史萊姆膠", "quantity": 1}],
+      "experience": 25
+    },
+    {
+      "encounter_id": "ENC002",
+      "date": "第11天",
+      "location": "哥布林營地 (格林谷村西北)",
+      "monsters": [
+        {"monster_id": "MON002", "name": "哥布林", "quantity": 5, "defeated": true},
+        {"monster_id": "MON003", "name": "哥布林薩滿", "quantity": 1, "defeated": true}
+      ],
+      "outcome": "勝利 (使用女神時間倒轉)",
+      "loot_obtained": [
+        {"item": "哥布林耳朵", "quantity": 6},
+        {"item": "銹蝕短劍", "quantity": 4},
+        {"item": "破損木盾", "quantity": 1},
+        {"item": "皮甲", "quantity": 1},
+        {"item": "魔法寶石碎片", "quantity": 1, "note": "已爆炸損毀"}
+      ],
+      "experience": 200,
+      "notes": "救援艾莉絲任務。情報眼解鎖新能力,首次瀕死並由女神倒轉時間"
+    }
+  ],
   "metadata": {
     "last_updated": "2026-02-12",
-    "total_monster_types": 0,
-    "total_encounters": 0
+    "total_monster_types": 3,
+    "total_encounters": 2
   }
 }

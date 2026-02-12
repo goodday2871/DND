@@ -1,9 +1,45 @@
 {
-  "fixed_prices": {},
-  "merchants": [],
-  "transaction_history": [],
+  "fixed_prices": {
+    "格林谷村_住宿_普通房間_每晚": 5,
+    "格林谷村_餐食_早餐": 2,
+    "格林谷村_餐食_晚餐": 3,
+    "格林谷村_維修_武器_長劍": 0,
+    "格林谷村_維修_護甲_鎖鏈甲": 0
+  },
+  "merchants": [
+    {
+      "merchant_id": "MER001",
+      "name": "威爾斯鐵匠鋪",
+      "location": "格林谷村",
+      "type": "鐵匠",
+      "buy_multiplier": 0.4,
+      "sell_multiplier": 1.5,
+      "specialty": ["武器", "護甲", "維修"],
+      "notes": "因萊薇救援艾莉絲,免費提供維修服務"
+    }
+  ],
+  "transaction_history": [
+    {
+      "transaction_id": "TXN001",
+      "date": "第11天",
+      "type": "任務獎勵",
+      "merchant": "巴洛克村長",
+      "items": [],
+      "gold_change": 75,
+      "notes": "完成「拯救艾莉絲」任務獎勵"
+    },
+    {
+      "transaction_id": "TXN002",
+      "date": "第11天",
+      "type": "服務",
+      "merchant": "威爾斯鐵匠鋪",
+      "items": ["長劍 (維修)", "鎖鏈甲 (維修)"],
+      "gold_change": 0,
+      "notes": "免費維修服務,因救援艾莉絲之恩"
+    }
+  ],
   "metadata": {
     "last_updated": "2026-02-12",
-    "total_transactions": 0
+    "total_transactions": 2
   }
 }

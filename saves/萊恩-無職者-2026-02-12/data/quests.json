@@ -1,8 +1,37 @@
 {
-  "quests": [],
+  "quests": [
+    {
+      "quest_id": "GV001",
+      "name": "拯救艾莉絲",
+      "giver": "巴洛克村長",
+      "location": "格林谷村",
+      "type": "rescue",
+      "description": "清除哥布林營地並救出失蹤的艾莉絲",
+      "objectives": [
+        {
+          "description": "清除哥布林營地",
+          "detail": "消滅所有哥布林 (6隻)",
+          "completed": true
+        },
+        {
+          "description": "救出艾莉絲",
+          "detail": "找到並安全護送艾莉絲回村",
+          "completed": true
+        }
+      ],
+      "reward_gold": 75,
+      "reward_items": [],
+      "reward_other": "格林谷村聲望提升,村民好感度提升",
+      "status": "completed",
+      "accepted_date": "第11天",
+      "completed_date": "第11天",
+      "notes": "任務過程中遭遇哥布林薩滿,戰鬥中瀕死但女神倒轉時間。成功完成任務並獲得村民感激。"
+    }
+  ],
   "metadata": {
     "last_updated": "2026-02-12",
-    "total_quests": 0,
-    "completed_quests": 0
+    "total_quests": 1,
+    "completed_quests": 1,
+    "active_quests": 0
   }
 }

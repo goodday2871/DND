@@ -1,8 +1,47 @@
 {
-  "locations": [],
+  "locations": [
+    {
+      "location_id": "LOC001",
+      "name": "格林谷村",
+      "type": "村莊",
+      "region": "洛安王國東北部",
+      "population": 300,
+      "description": "小型農業村莊,民風純樸,有衛兵巡邏",
+      "services": {
+        "住宿": {"available": true, "provider": "村長家", "price_key": "格林谷村_住宿_普通房間_每晚"},
+        "鐵匠": {"available": true, "provider": "威爾斯鐵匠鋪", "specialties": ["武器維修", "護甲維修"]},
+        "雜貨": {"available": true, "provider": "雜貨鋪", "note": "未詳細探索"},
+        "餐飲": {"available": true, "provider": "村民提供", "meals": ["早餐", "晚餐"]}
+      },
+      "key_npcs": ["巴洛克村長", "威爾斯", "艾莉絲", "馬克", "佐恩"],
+      "security": "有村衛兵巡邏,相對安全",
+      "relationship": "友好",
+      "first_visited": "第11天",
+      "notes": "因救援艾莉絲,獲得全村感激"
+    },
+    {
+      "location_id": "LOC002",
+      "name": "河畔甦醒地",
+      "type": "野外",
+      "region": "格林谷村西側",
+      "description": "小河流經的河畔,萊薇轉生後甦醒之處",
+      "first_visited": "第11天",
+      "notes": "轉生起點"
+    },
+    {
+      "location_id": "LOC003",
+      "name": "哥布林營地遺址",
+      "type": "戰鬥地點",
+      "region": "格林谷村西北方",
+      "description": "已清除的哥布林營地,曾有6隻哥布林駐紮",
+      "threats": "已清除",
+      "first_visited": "第11天",
+      "notes": "救援艾莉絲任務地點,發生激烈戰鬥"
+    }
+  ],
   "metadata": {
     "last_updated": "2026-02-12",
-    "total_locations": 0,
-    "discovered_locations": 0
+    "total_locations": 3,
+    "discovered_locations": 3
   }
 }
