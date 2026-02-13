@@ -81,6 +81,7 @@ saves/
       "attack_bonus": 2,
       "damage": "1d4+1",
       "xp": 25,
+      "ascii_art": "  ╭─────╮\n ╭╯░░░░░╰╮\n╭╯░◕───◕░╰╮\n│░░  ω  ░░│\n╰╮░░░░░░░╭╯\n    ╰─╯",
       "loot_table": {
         "slime_gel": {
           "chance": 1.0,
