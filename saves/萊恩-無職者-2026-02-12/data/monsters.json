@@ -7,6 +7,10 @@
       "size": "小型",
       "hp": 5,
       "ac": 8,
+      "attack_bonus": 0,
+      "damage": "1d4",
+      "xp": 25,
+      "ascii_art": "  ╭─────╮\n ╭╯░░░░░╰╮\n╭╯░◕───◕░╰╮\n│░░  ω  ░░│\n╰╮░░░░░░░╭╯\n    ╰─╯",
       "loot_table": {
         "common": [{"item": "史萊姆膠", "quantity": 1, "chance": 100}]
       },
