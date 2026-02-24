@@ -1,0 +1,19 @@
+{
+  "locations": [
+    {
+      "id": "ancient_elf_village",
+      "name": "古老精靈村莊",
+      "type": "村莊",
+      "description": "古代精靈的居所,與世隔絕的寧靜村莊,居民都是元素與魔力的集合體",
+      "features": [
+        "銀色樹林",
+        "魔力光輝",
+        "永恆的寧靜",
+        "無需物質資源"
+      ],
+      "residents": "古代精靈",
+      "discovered_date": "冒險第 1 天",
+      "notes": "安生活了三百年的家園"
+    }
+  ]
+}
