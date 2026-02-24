@@ -9,11 +9,72 @@
         "銀色樹林",
         "魔力光輝",
         "永恆的寧靜",
-        "無需物質資源"
+        "無需物質資源",
+        "魔力結界保護"
       ],
       "residents": "古代精靈",
       "discovered_date": "冒險第 1 天",
-      "notes": "安生活了三百年的家園"
+      "notes": "安生活了三百年的家園,精靈王允許隨時回歸"
+    },
+    {
+      "id": "gran_town",
+      "name": "格蘭鎮",
+      "type": "邊境城鎮",
+      "description": "人類的邊境城鎮,有冒險者公會與基礎商業設施",
+      "population": 3000,
+      "features": [
+        "石牆城防",
+        "冒險者公會",
+        "商業區",
+        "住宅區",
+        "銀月之家旅館"
+      ],
+      "adventurers": 47,
+      "guards": 120,
+      "discovered_date": "冒險第 1 天",
+      "notes": "安註冊冒險者身份的地方,出售月光果實獲得 1000 金幣"
+    },
+    {
+      "id": "forest_near_gran",
+      "name": "格蘭鎮附近森林",
+      "type": "森林",
+      "description": "連接古老精靈村莊與格蘭鎮的森林區域",
+      "threats": [
+        "哥布林部落 (已清除一處)",
+        "野生魔獸"
+      ],
+      "discovered_date": "冒險第 1 天",
+      "notes": "安穿越結界後第一個抵達的區域,遇見格雷格小隊的地方"
+    },
+    {
+      "id": "dungeon_north_mountain",
+      "name": "北方山脈地下城",
+      "type": "地下城",
+      "description": "位於北方山脈的地下城,深度約 200 公尺",
+      "depth": "200m",
+      "monster_count": 500,
+      "boss_count": 3,
+      "danger_level": "高",
+      "discovered_date": "冒險第 1 天 (魔力掃描)",
+      "notes": "尚未實際探索,僅透過魔力掃描得知"
+    },
+    {
+      "id": "demon_nest_shadow_forest",
+      "name": "暗影森林惡魔巢穴",
+      "type": "惡魔巢穴",
+      "description": "位於西南方暗影森林深處的惡魔巢穴",
+      "danger_level": "極高",
+      "discovered_date": "冒險第 1 天 (魔力掃描)",
+      "notes": "魔力反應極強,非常危險的區域"
+    },
+    {
+      "id": "dragon_nest_east_mountain",
+      "name": "東方山脈龍巢",
+      "type": "龍巢",
+      "description": "位於東方山脈最高峰的龍巢",
+      "danger_level": "傳說級",
+      "discovered_date": "冒險第 1 天 (魔力掃描)",
+      "notes": "魔力強度極為驚人,可能是巨龍棲息地"
     }
   ]
 }

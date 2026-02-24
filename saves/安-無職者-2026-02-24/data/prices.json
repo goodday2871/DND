@@ -1,5 +1,39 @@
 {
-  "fixed_prices": {},
+  "fixed_prices": {
+    "silver_moon_inn_room": {
+      "service": "銀月之家旅館 - 單人房",
+      "price": 5,
+      "currency": "金幣",
+      "unit": "每晚",
+      "includes": ["早餐", "晚餐", "熱水澡"],
+      "location": "格蘭鎮",
+      "first_used": "冒險第 1 天"
+    }
+  },
   "merchants": [],
-  "transaction_history": []
+  "transaction_history": [
+    {
+      "date": "冒險第 1 天",
+      "type": "出售",
+      "item": "月光果實",
+      "quantity": 1,
+      "buyer": "格蘭鎮冒險者公會",
+      "total_value": 1000,
+      "payment": {
+        "cash": 200,
+        "promissory_note": 800
+      },
+      "notes": "S級素材,公會現金不足,開立擔保欠款條"
+    },
+    {
+      "date": "冒險第 1 天",
+      "type": "支付",
+      "service": "銀月之家旅館住宿",
+      "quantity": 1,
+      "unit_price": 5,
+      "total_cost": 5,
+      "seller": "銀月之家旅館",
+      "notes": "格蘭鎮最高級旅館,第一晚住宿"
+    }
+  ]
 }

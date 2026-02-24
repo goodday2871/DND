@@ -1,3 +1,39 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "moonlight_fruit",
+      "name": "月光果實",
+      "category": "S級素材",
+      "rarity": "傳說",
+      "base_price": 1000,
+      "description": "晶瑩剔透的果實,散發淡淡光芒與清新香氣,萬靈藥的主成分之一",
+      "properties": {
+        "purity": "99.7%",
+        "magic_content": "極高",
+        "quality": "絕品中的絕品"
+      },
+      "source": "古老精靈村莊的樹木",
+      "obtained": 1,
+      "sold": 1,
+      "used": 0,
+      "current_stock": 0,
+      "notes": "村莊中有大量庫存,可隨時取得。第一顆以 1000 金幣售出 (200 現金 + 800 欠款條)"
+    },
+    {
+      "id": "adventurer_card_an",
+      "name": "冒險者證 - 安",
+      "category": "證件",
+      "rarity": "個人專屬",
+      "base_price": 0,
+      "description": "安的冒險者身份證明",
+      "properties": {
+        "rank": "F級",
+        "magic_rating": "A++",
+        "registered_class": "元素使"
+      },
+      "obtained": 1,
+      "current_stock": 1,
+      "notes": "於格蘭鎮冒險者公會註冊"
+    }
+  ]
 }

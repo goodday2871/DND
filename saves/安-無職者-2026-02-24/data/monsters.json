@@ -1,4 +1,78 @@
 {
-  "monster_types": [],
-  "encounters": []
+  "monster_types": [
+    {
+      "id": "goblin_common",
+      "name": "哥布林 (普通)",
+      "cr": 0.25,
+      "hp": 7,
+      "ac": 15,
+      "attack_bonus": 4,
+      "damage": "1d6+2",
+      "attributes": {
+        "str": 8,
+        "dex": 14,
+        "con": 10,
+        "int": 10,
+        "wis": 8,
+        "cha": 8
+      },
+      "loot_rules": {
+        "currency": "1d6 銅幣",
+        "items": ["破爛裝備 (20%)", "小刀 (10%)"]
+      },
+      "first_encountered": "冒險第 1 天",
+      "location": "格蘭鎮附近森林",
+      "notes": "流竄部落,六隻被格雷格小隊擊殺"
+    },
+    {
+      "id": "goblin_shaman",
+      "name": "哥布林薩滿",
+      "cr": 1,
+      "hp": 12,
+      "ac": 13,
+      "attack_bonus": 3,
+      "damage": "1d6+1",
+      "special_abilities": [
+        "施法能力 (綠色魔力)",
+        "木杖武器",
+        "部落領袖"
+      ],
+      "attributes": {
+        "str": 8,
+        "dex": 12,
+        "con": 10,
+        "int": 14,
+        "wis": 12,
+        "cha": 10
+      },
+      "loot_rules": {
+        "currency": "2d6 銅幣",
+        "items": ["木杖 (100%)", "藥草 (50%)", "小型魔石 (30%)"]
+      },
+      "first_encountered": "冒險第 1 天",
+      "location": "格蘭鎮附近森林",
+      "notes": "被艾倫一箭射殺,魔法未成型就被中斷"
+    }
+  ],
+  "encounters": [
+    {
+      "date": "冒險第 1 天",
+      "location": "格蘭鎮附近森林 - 哥布林營地",
+      "monster_types": [
+        {
+          "type": "goblin_common",
+          "count": 6
+        },
+        {
+          "type": "goblin_shaman",
+          "count": 1
+        }
+      ],
+      "result": "全滅 (格雷格小隊勝利)",
+      "casualties": "無",
+      "loot_obtained": "未記錄 (隊伍收取)",
+      "rescued": "托馬斯 (人類商人)",
+      "notes": "安在後方觀察,第一次見識戰鬥"
+    }
+  ]
 }
