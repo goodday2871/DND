@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": "maze_mushroom",
+      "name": "迷宮發光蘑菇",
+      "base_price": 1,
+      "currency": "SP",
+      "obtained": 3,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 3,
+      "notes": "微弱照明，可食用，略帶苦味"
+    },
+    {
+      "id": "magic_shard",
+      "name": "魔力碎片",
+      "base_price": 5,
+      "currency": "GP",
+      "obtained": 2,
+      "sold": 0,
+      "used": 2,
+      "current_stock": 0,
+      "notes": "已全數吸收為魔素養料"
+    },
+    {
+      "id": "slime_core_blue",
+      "name": "深藍史萊姆核心",
+      "base_price": 3,
+      "currency": "GP",
+      "obtained": 1,
+      "sold": 0,
+      "used": 1,
+      "current_stock": 0,
+      "notes": "已吸收為魔素養料"
+    },
+    {
+      "id": "slime_core_green",
+      "name": "深綠史萊姆核心",
+      "base_price": 3,
+      "currency": "GP",
+      "obtained": 1,
+      "sold": 0,
+      "used": 1,
+      "current_stock": 0,
+      "notes": "已吸收為魔素養料"
+    },
+    {
+      "id": "slime_core_purple",
+      "name": "淡紫史萊姆核心",
+      "base_price": 5,
+      "currency": "GP",
+      "obtained": 1,
+      "sold": 0,
+      "used": 1,
+      "current_stock": 0,
+      "notes": "已吸收，但殘留意識碎片沉入Kayn魔素迴路，尚未有動靜"
+    },
+    {
+      "id": "goblin_corrosive",
+      "name": "哥布林腐蝕劑",
+      "base_price": 2,
+      "currency": "GP",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "notes": "約剩15滴，附加在武器上造成1d4腐蝕傷害，對皮甲/鎖甲有奇效"
+    },
+    {
+      "id": "mana_crystal_large",
+      "name": "魔素結晶（大型）",
+      "base_price": 200,
+      "currency": "GP",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "notes": "從廢墟石室奪取，藍白色，魔素濃度極高。已吸收約1/10，剩餘約9/10"
+    },
+    {
+      "id": "goblin_chief_blade",
+      "name": "哥布林首領彎刀",
+      "base_price": 8,
+      "currency": "GP",
+      "obtained": 1,
+      "sold": 0,
+      "used": 0,
+      "current_stock": 1,
+      "notes": "刀身有粗糙紋路，刃口鋒利，從首領身上奪取"
+    }
+  ]
+}

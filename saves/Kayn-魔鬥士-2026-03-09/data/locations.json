@@ -1,0 +1,54 @@
+{
+  "locations": [
+    {
+      "id": "maze_exit",
+      "name": "迷宮出口",
+      "type": "landmark",
+      "first_visited": "第1天",
+      "status": "已封閉",
+      "description": "通往外界的石門，Kayn 離開後自動崩塌封閉",
+      "services": [],
+      "notes": "無法返回迷宮"
+    },
+    {
+      "id": "ruin_cave",
+      "name": "廢墟洞窟（據點）",
+      "type": "hideout",
+      "first_visited": "第1天",
+      "status": "安全・已清除",
+      "description": "廢墟西北側的天然洞窟，入口被石板遮蔽。內有藍綠苔蘚與魔素結晶，光線充足。曾是哥布林舊窩。",
+      "services": ["長休", "魔素結晶吸收"],
+      "notes": "目前最安全的藏身處"
+    },
+    {
+      "id": "ruin_east_plaza",
+      "name": "廢墟東側廣場",
+      "type": "cleared",
+      "first_visited": "第1夜",
+      "status": "已清除",
+      "description": "相對完整的廣場遺跡，中央有廢棄石井，四角有石柱。曾是哥布林首領的營地。",
+      "services": [],
+      "notes": "哥布林全滅，暫時安全"
+    },
+    {
+      "id": "ruin_west_chamber",
+      "name": "廢墟左側地下石室",
+      "type": "cleared",
+      "first_visited": "第2夜",
+      "status": "已清除・結晶已取走",
+      "description": "地下天然石室，藉由地面裂縫進入。原有魔素結晶一塊，現已被Kayn取走。低等魔族曾在此聚集吸收魔素。",
+      "services": [],
+      "notes": "結晶已取走，低等魔族全滅"
+    },
+    {
+      "id": "nearby_town",
+      "name": "附近城鎮",
+      "type": "settlement",
+      "first_visited": "未造訪",
+      "status": "警戒中",
+      "description": "東方約2公里的人類定居點，有穩定燈火。鎮長已因哥布林消失事件提高警戒，並向城裡送信通報高危魔物。",
+      "services": ["未知"],
+      "notes": "人類對惡魔極度排斥，直接現身可能引發敵對反應"
+    }
+  ]
+}

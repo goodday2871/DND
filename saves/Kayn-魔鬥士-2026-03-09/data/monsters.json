@@ -1,0 +1,83 @@
+{
+  "monsters": [
+    {
+      "id": "goblin",
+      "name": "哥布林",
+      "hp": 7,
+      "ac": 11,
+      "attack_bonus": 2,
+      "damage": "1d6",
+      "xp": 25,
+      "loot": ["銅幣1d6", "生鏽短刀（低機率）"],
+      "notes": "群體行動，遇強則逃"
+    },
+    {
+      "id": "goblin_chief",
+      "name": "哥布林首領",
+      "hp": 18,
+      "ac": 13,
+      "attack_bonus": 3,
+      "damage": "1d8+1",
+      "xp": 100,
+      "loot": ["銅幣2d6", "首領彎刀", "可能有特殊道具"],
+      "notes": "比普通哥布林更耐打，體質豁免+1，會指揮部下"
+    },
+    {
+      "id": "slime",
+      "name": "史萊姆",
+      "hp": 8,
+      "ac": 8,
+      "attack_bonus": 1,
+      "damage": "1d4酸蝕",
+      "xp": 25,
+      "loot": ["史萊姆核心（必掉）"],
+      "notes": "對物理攻擊減傷，對火焰弱點。核心可吸收為魔素養料",
+      "special": "精準抓核心可一擊必殺"
+    },
+    {
+      "id": "lesser_demon",
+      "name": "低等魔族",
+      "hp": 15,
+      "ac": 12,
+      "attack_bonus": 2,
+      "damage": "1d6爪擊",
+      "xp": 50,
+      "loot": ["魔素碎片（低機率）"],
+      "notes": "暗紫色皮膚，細角，倒刺尾。體型比哥布林大，靠本能行動，無語言。體質豁免+1"
+    }
+  ],
+  "encounters": [
+    {
+      "date": "第1天午後",
+      "location": "洞窟入口",
+      "enemies": ["哥布林x3"],
+      "result": "哥布林甲被地獄之焰燒死，乙丙逃跑",
+      "xp_gained": 25,
+      "loot_gained": []
+    },
+    {
+      "date": "第1夜",
+      "location": "廢墟右側矮樹叢",
+      "enemies": ["哥布林x3"],
+      "result": "地獄之焰全滅",
+      "xp_gained": 75,
+      "loot_gained": ["銅幣8枚"]
+    },
+    {
+      "date": "第1夜",
+      "location": "廢墟東側廣場",
+      "enemies": ["哥布林x5", "哥布林首領x1"],
+      "result": "地獄之焰燒死3隻，爪擊+邪惡之焰擊倒弓手2隻，地獄之焰重創首領，爪擊終結",
+      "xp_gained": 175,
+      "loot_gained": ["哥布林首領彎刀", "哥布林腐蝕劑"]
+    },
+    {
+      "date": "第2夜",
+      "location": "廢墟左側地下石室",
+      "enemies": ["低等魔族x4"],
+      "result": "裂縫俯衝地獄之焰燒死2隻，彎刀+腐蝕劑+邪惡之焰擊倒剩餘2隻",
+      "xp_gained": 200,
+      "loot_gained": ["魔素結晶（大型）x1"]
+    }
+  ]
+}
