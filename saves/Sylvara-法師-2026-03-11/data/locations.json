@@ -1,0 +1,14 @@
+{
+  "locations": [
+    {
+      "id": "elven_capital_scholar",
+      "name": "精靈王都 - 學術區",
+      "type": "city_district",
+      "description": "精靈王古都的學術重地，白銀尖塔與古木並立，魔法研究院、典籍館散落其間",
+      "safety": "安全",
+      "services": {},
+      "visited": true,
+      "first_visited": "2026-03-11"
+    }
+  ]
+}

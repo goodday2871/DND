@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "arcane_staff",
+      "name": "法師法杖",
+      "type": "weapon",
+      "base_price": 10,
+      "current_stock": 1,
+      "obtained": 1,
+      "sold": 0,
+      "used": 0
+    },
+    {
+      "id": "spellbook",
+      "name": "法術書",
+      "type": "focus",
+      "base_price": 50,
+      "current_stock": 1,
+      "obtained": 1,
+      "sold": 0,
+      "used": 0
+    }
+  ]
+}
